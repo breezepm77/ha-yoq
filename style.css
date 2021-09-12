@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+    font-family: 'Arial';
+    background-color:gray;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -16px;
+}
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.yesno {
+    margin-bottom: 10px;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    border-radius: 5px;
+    width: 340px;
+    height: 300px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.dush {
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #fff;
+}
+
+.ha {
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.yes {
+    color: lime;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.yoq {
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.no {
+    color: orangered;
+    font-size: 35px;
+    font-weight: 700;
+}
+.input {
+    background:linear-gradient(to right,lime,red);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 36px;
+    width: 130px;
+    padding-left: 8px;
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: center;
+}
+.input::placeholder{
+    font-family: 'Dancing Script';
+    color: #fff;
+}
+.checkbox {
+    width: 15px;
+    height: 16px;
+    margin-right: 8px;
+    outline: none;
+}
+.h3{
+    font-family: 'Dancing Script';
+    color: #fff;
+    font-size: 28px;
+    margin-top: -8px;
+}
+#label{
+    margin-right: 8px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Dancing Script';
+}
+.span{
+    color: #fff;
+    font-family: 'Dancing Script';
+}
