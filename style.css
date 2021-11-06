@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 body {
     font-family: 'Arial';
-    background-color:gray;
+    background-color:#ccc;
 }
 .container{
     height: 100vh;
@@ -26,7 +26,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: darkblue;
+    background-color: #777;
     border-radius: 5px;
     width: 340px;
     height: 300px;
@@ -72,7 +72,7 @@ form {
     font-weight: 700;
 }
 .input {
-    background:linear-gradient(to right,lime,red);
+    background: #ccc;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -85,7 +85,7 @@ form {
 }
 .input::placeholder{
     font-family: 'Dancing Script';
-    color: #fff;
+    color: #777;
 }
 .checkbox {
     width: 15px;
