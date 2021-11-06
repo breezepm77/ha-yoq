@@ -22,7 +22,6 @@ elForm.addEventListener('keyup', function(){
 
     if(elInput.value < 5 && elCheckboxSec.checked){
         elNo.classList.add('no')
-        // elYes.classList.add('yes')
     }
 
 })
